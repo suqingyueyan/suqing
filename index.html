@@ -298,15 +298,15 @@
                 pageWrapper.appendChild(canvas);
 
                 // Create page number indicator
-                const pageNumber = document.createElement('div');
-                pageNumber.className = 'page-number';
-                pageNumber.textContent = `Page ${pageNum}`;
+                //const pageNumber = document.createElement('div');
+                //pageNumber.className = 'page-number';
+                //pageNumber.textContent = `Page ${pageNum}`;
 
                 // Append to container
                 container.appendChild(pageWrapper);
-                container.appendChild(pageNumber);
+               // container.appendChild(pageNumber);
             } catch (error) {
-                console.error(`Error rendering page ${pageNum}:`, error);
+                //console.error(`Error rendering page ${pageNum}:`, error);
             }
         }
 
